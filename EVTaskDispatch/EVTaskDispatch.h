@@ -1,11 +1,11 @@
-# EVTaskDispatch
-基于 CFRunLoopRef 的一款任务分发组件
-- 内部原理: 监控主线程 runloop，当即将休眠时，取出一个之前添加的任务，并在主线程执行；
-- 适用场景: 占用主线程时间过长、且可以延迟执行的任务；例如：在App启动时，一些三方库的注册、用户信息的同步 等；
-## Install with cocoapods
-pod 'EVTaskDispatch', '~> 0.0.1'
-## API
-```
+//
+//  EVTaskDispatch.h
+//  EVTaskDemo
+//
+//  Created by Ever on 2019/4/3.
+//  Copyright © 2019 Ever. All rights reserved.
+//
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -50,5 +50,3 @@ typedef enum : NSUInteger {
 @end
 
 NS_ASSUME_NONNULL_END
-
-```
