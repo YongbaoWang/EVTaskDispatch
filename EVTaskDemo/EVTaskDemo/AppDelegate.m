@@ -22,14 +22,14 @@
     // Override point for customization after application launch.
 
     //添加两个不同优先级的任务
-//    [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task1) priority:EVTaskPriorityHigh];
-//    [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task2) priority:EVTaskPriorityLow];
+    [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task1) priority:EVTaskPriorityHigh];
+    [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task2) priority:EVTaskPriorityLow];
     
     //vc 为临时变量；vc释放后，添加的该任务，将不再执行；
-    ViewController *vc = [ViewController new];
-    [[EVTaskDispatch shared] addTaskWithTarget:vc action:@selector(print) priority:EVTaskPriorityHigh];
-    
-        [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task1) priority:EVTaskPriorityHigh];
+//    ViewController *vc = [ViewController new];
+//    [[EVTaskDispatch shared] addTaskWithTarget:vc action:@selector(print) priority:EVTaskPriorityHigh];
+//
+//    [[EVTaskDispatch shared] addTaskWithTarget:self action:@selector(task1) priority:EVTaskPriorityHigh];
 
     NSLog(@"didFinish end");
     

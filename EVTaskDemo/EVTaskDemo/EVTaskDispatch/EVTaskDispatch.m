@@ -177,8 +177,4 @@ void (runLoopObserverCallBack)(CFRunLoopObserverRef observer, CFRunLoopActivity 
     });
 }
 
-- (void)setHighPriorityTaskMapTable:(NSMapTable<NSObject *,NSMutableArray *> *)highPriorityTaskMapTable {
-    _highPriorityTaskMapTable = highPriorityTaskMapTable;
-}
-
 @end
