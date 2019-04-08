@@ -52,3 +52,7 @@ typedef enum : NSUInteger {
 NS_ASSUME_NONNULL_END
 
 ```
+
+
+# 微信公众号 ：汪汪的世界
+![(WeChat)](https://github.com/YongbaoWang/EverShowPath/blob/master/EverShowPath/wechat_num.jpg)
